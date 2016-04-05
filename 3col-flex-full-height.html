@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3 Full Height Columns</title>
+    <style>
+        /*
+        *   In basic files like this I like to keep my styles in the order they appear on the page.
+        */
+        html, body{
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        #container{
+            width: 100%;
+            height: 1000px; /* set height to any value and the side columns will follow.
+                               Parent container of the columns must have the height set.  */
+        }
+
+        header{
+            width: 960px;
+            margin: 0 auto 16px; /* top , left and right, bottom */
+            text-align: center;
+            padding-bottom: 16px;
+            border-bottom: 3px solid gray;
+        }
+
+        #left-col{
+            float: left;
+            width: 20%;
+            height: 100%; /* We are telling the column to match the set height of the parent. */
+            margin-bottom: 16px;
+            background-color: burlywood;
+        }
+
+        #right-col{
+            float: right;
+            width: 20%;
+            height: 100%; /* We are telling the column to match the set height of the parent. */
+            margin-bottom: 16px;
+            background-color: darkolivegreen;
+        }
+
+        /* #main-wrapper is needed to create the margins we need to keep the main content clear of the columns */
+        #main-wrapper{
+            margin: 0 20%;
+        }
+
+        /* we can add the padding to #main and it will not effect #main-wrappers' width. */
+        #main{
+            padding: 16px;
+        }
+
+        footer{
+            width: 960px;
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 16px;
+            border-top: 3px solid gray;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Full Height 3 Column</h1>
+    <h4>No use of images by Chris Goode</h4>
+    <nav>Example | Example | Example | Example | Example</nav>
+</header>
+
+<!-- begin container -->
+<div id="container">
+
+    <!-- begin #left-col -->
+    <aside id="left-col">
+        <h2>Left Column</h2>
+        <p>Eos euismod expetendis cu, odio essent detraxit usu in. Ius ea gubergren definitionem, ei cum magna dolore, no
+        expetendis philosophia mea. Nonumes cotidieque cu vix, liber definitionem at qui. Sale illum homero ne pri, has
+        an dicat maiorum, vim an discere ancillae contentiones. An ludus omnesque omittantur per, id qui omittam
+        accumsan convenire. Duo elit eius adolescens id.</p>
+    </aside><!-- end left-col -->
+
+    <!-- begin #right-col-->
+    <aside id="right-col">
+        <h2>Right Column</h2>
+        <p>Lorem ipsum dolor sit amet, quo tota discere te, prima maiestatis necessitatibus est ei. Vim nonumy nostrud
+            gloriatur eu, pri in alia pertinacia. Ex inermis pericula mei. Argumentum definitiones nec in. Tempor possim
+            partiendo mea no, prima tantas cotidieque usu te. Dicta latine est ut. At has modo insolens, mei sensibus
+            moderatius eu.</p>
+    </aside><!-- end #right-col -->
+
+    <!-- begin #main-wrapper -->
+    <div id="main-wrapper">
+
+        <!-- begin #main -->
+        <section id="main">
+            <h1>Main Section</h1>
+            <p>This shows that you can create a 100&percnt; height divs that have been floated and not use images as a background.</p>
+            <p>This works on all browsers</p>
+        </section><!-- end #main -->
+
+    </div><!-- end #main-wrapper -->
+
+</div><!-- end #container -->
+
+<footer>
+    <p>3 Full Height Columns with no image background</p>
+</footer>
+
+</body>
+</html>
