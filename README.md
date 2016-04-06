@@ -1,19 +1,11 @@
 Code Examples
 =============
-This is a collection of basic examples using only HTML, CSS and some JavaScript.
 
-## HTML
-* 3 Column **Flex** layout showing full height sidebars
-* 3 Column **Fixed** layout showing full height sidebars
+The repository is meant to show concepts and how to do things in various web languages. It also serves as a reminder on
+how I accomplished a particular look.
 
-## JavaScript
-* None yet
+If you have anything to add please create a push request and I will consider it!
 
-## JavaScript
-* None yet
+Thanks!
 
-## jQuery
-* None yet
-
-## PHP
-* None yet
+-Chris
