@@ -1,8 +1,19 @@
-Basic HTML
-==========
+Code Examples
+=============
 This is a collection of basic examples using only HTML, CSS and some JavaScript.
 
-### Current Examples
-
+## HTML
 * 3 Column **Flex** layout showing full height sidebars
 * 3 Column **Fixed** layout showing full height sidebars
+
+## JavaScript
+* None yet
+
+## JavaScript
+* None yet
+
+## jQuery
+* None yet
+
+## PHP
+* None yet
